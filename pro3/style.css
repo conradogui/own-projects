@@ -83,55 +83,64 @@ header > p {
     font-size: 5em;
     font-weight: bold;
     cursor:grab;
+    min-width: 0px;
 }
 table {
-    border-collapse: collapse;
-    margin: auto;
+    border-collapse: collapse;    
     background-color: rgba(245, 245, 220, 0.285);
-    border-radius: 10px;
-    min-width: 50px;
-        
+    border-radius: 10px; 
+    width: 100%;      
 
 }
+tbody {
+    width: 100%;
+}
 tr {
-    border-collapse: collapse;
+    width: 100%;
     
 }
 .v1 {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    min-width: 100px;
+    
+    
 }
 .v2 {
     border-bottom: 2px solid black;
     border-right: 2px solid black;
-    min-width: 100px;
+    
+    
 }
 .v3 {
     border-bottom: 2px solid black;
-    min-width: 100px;
+   
+    
 }
 .v4 {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    min-width: 100px;
+    
 }
 .v5 {
     border-bottom: 2px solid black;
     border-right: 2px solid black;
-    min-width: 100px;
+    
+    
 }
 .v6 {
     border-bottom: 2px solid black;
-    min-width: 100px;
+    
+    
 }
 .v7 {
     border-right: 2px solid black;
-    min-width: 100px;
+    
+    
 }
 .v8 {
     border-right: 2px solid black;
-    min-width: 100px;
+    
+    
 }
 footer {
     text-align: center;
