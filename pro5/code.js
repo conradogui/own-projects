@@ -1,7 +1,7 @@
 const bot = document.querySelector('.btn')
 const div = document.querySelector('.container')
 
-const colors = ['green', 'pink', 'red', 'orange', 'purple', 'aquamarine']
+const colors = ['green', 'pink', 'red', 'orange', 'purple', 'aquamarine', 'black']
 
 div.style.background = 'grey'
 bot.addEventListener('click', botaCor)
