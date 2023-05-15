@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 2px 4px 3px black;
+    position: absolute;
+    
+}
+.btn:active {
+    position: relative;
+    top: 10px;
+    left: 2px;
+    box-shadow: none;
+}

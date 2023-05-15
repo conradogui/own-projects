@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(199, 7, 199);
+}
+.container {
+    background-color: white;
+    max-width: 500px;
+    text-align: center;    
+    display: grid; 
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mensagem {
+    width: 300px;
+    margin: auto;
+    height: 20px;
+    font-size: 1.2em;
+}
+.enviar {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(94, 5, 97);
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+.erro {
+    display: none;
+    background-color: red;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.mensagem-enviada {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
