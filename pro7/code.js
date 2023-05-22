@@ -2,7 +2,7 @@ window.onload = () => {
     const div = document.querySelector('.pontos')
     let contador = 0
     const quadrado = document.querySelector('.quadrado')
-    var cont = quadrado.getContext("2d")
+    var cont = quadrado.getContext("2d") //O getContext é um método que pode ser chamado em um elemento que contém um elemento canvas. O getContext retorna algo que pode ser visto como uma lousa em branco que a gente usa para desenhar coisas na tela
     document.addEventListener('keydown', apertaTecla )
 
     setInterval(game, 90)
@@ -10,8 +10,8 @@ window.onload = () => {
     const velocidade = 1 //quantas casas ela vai ter que andar
     var velX = 0  //velocidade x = 0
     var velY = 0 //velocidade y = 0
-    var iniX = 10 //inicio no x
-    var iniY = 15 //inicio no y
+    var iniX = 10 //inicio no x da cobra
+    var iniY = 15 //inicio no y da cobra
     var tamP = 30 //tamanho da peça
     var quantP = 30 //quantidade de peças
     
@@ -39,10 +39,10 @@ window.onload = () => {
         }
 
         cont.fillStyle = 'black'
-        cont.fillRect(0,0, quadrado.width, quadrado.height)
+        cont.fillRect(0,0, quadrado.width, quadrado.height)//(x, y, width, height)
 
         cont.fillStyle = "red"
-        cont.fillRect(posMx * tamP, posMy * tamP, tamP, tamP)
+        cont.fillRect(posMx * tamP, posMy * tamP, tamP, tamP)//(x, y, width, height)
 
         cont.fillStyle = "green"
         for(var i = 0; i < rastro.length; i++) {
@@ -58,7 +58,7 @@ window.onload = () => {
             }
         }
 
-        rastro.push( {
+        rastro.push({
             x: iniX,
             y: iniY
         })
@@ -94,9 +94,7 @@ window.onload = () => {
             case 40: //tecla para baixo
             velX = 0
             velY = velocidade
-            break
-            default:
-                break
+            break            
         }
     }
 }
