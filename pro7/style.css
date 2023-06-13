@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
     text-align: center;
     background: rgb(224,213,128);
     background: linear-gradient(90deg, rgba(224,213,128,1) 0%, rgba(20,183,31,1) 35%, rgba(0,255,183,1) 100%);
+    
 }
 h1 {
     font-size: 3em;
     font-family: 'Righteous', cursive;    
+}
+
+.texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
 }
