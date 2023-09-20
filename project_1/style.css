@@ -27,7 +27,7 @@ header {
 header>h1 {
     font-family: 'Passion One', cursive;
     color: white;
-    font-size: 10vw;
+    font-size: 100px;
 }
 header>p {
     font-size: smaller;
