@@ -18,19 +18,19 @@
  
 ![Change-background](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnpjbTNmaWs2bWhybmJjOWQycGtleTd5emkzbXc1bDdoM2c3OWE3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zuVcbw1k1zOLOk67Cw/giphy.gif)
 
-##Project 4 
+## Project 4 
 
  - A simple project that counts clicks according to the command
  
 ![Cliks-counter](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHpjY3U1bGJudzE1YjM3cnMyZ3g2bXNjMjlkbDg1cXRpbGJsa2dxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hx3kDRBGUmaDWBht9d/giphy.gif)
 
-##Project 5 
+## Project 5 
 
  - A tic-tac-toe game developed to practice knowledge of JavaScript, HTML and CSS
  
 ![tic-tac-toe-game](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFmbXBrdnR6MWt0ajdoNGRwZWI0NzQ4Ymg5bmtoNmc2aDk3YnhqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TmXki05NGjWuacHPEL/giphy.gif)
 
-##Project 6 
+## Project 6 
 
  - The famous snake-game developed with JavaScript, CSS and HTML
  
