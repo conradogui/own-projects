@@ -1,17 +1,18 @@
 import './StartScreen.css'
+import img from '../assets/fruta.png'
 
 const StartScreen = () => {
   return (
     <div className='container'>
-            <div className="imagem">Imagem</div>
-            <div className="login">
-                <h1>Nome qualquer</h1>
+            <img className='imagem moni1' src={img}/>
+            <div className="login moni1">
+                <h1>Clipgram</h1>
                 <input type="email" name="" id="" placeholder='Email, telefone ou nome de usuário' />
                 <input type="password" name="" id="" placeholder='Password'/>
                 <button>Login</button>
                 <hr />
-                <p>Esqueceu a senha</p>
-                <p>Cadastre-se</p>
+                <a href="#">Esquceu a senha?</a>
+                <a href="#">Não tem conta?</a>
             </div>        
     </div>
   )
