@@ -1,13 +1,22 @@
 import { useState } from 'react'
 import './App.css'
 //components
-import StartScreen from './components/startScreen'
+import ToDo from './components/ToDo'
 
 function App() { 
+  const [work, setWork] = useState()
+  
+  const mostra = () => {
+    
+  }
 
   return (
     <div className="app">      
-      <StartScreen/>
+      <div className='container'>
+        <div className="add_tarefa">
+          <ToDo mostra={mostra}/>
+        </div>
+      </div>
     </div>
   )
 }
