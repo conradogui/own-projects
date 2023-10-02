@@ -9,9 +9,9 @@
 
 ## Project 2 
 
- - Project developed to place unique messages on the screen
+ - A tic-tac-toe game developed to practice knowledge of JavaScript, HTML and CSS
  
-![Mensagens](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGt0YXRkM2I1OHh4eDh3ZzRwbHZzNjFmNHVveXR1OWJ2anNmbWlseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/32liqhJDup3R6L7zJj/giphy.gif)
+![tic-tac-toe-game](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFmbXBrdnR6MWt0ajdoNGRwZWI0NzQ4Ymg5bmtoNmc2aDk3YnhqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TmXki05NGjWuacHPEL/giphy.gif)
 
 ## Project 3 
  - Project to change the screen background according to clicks
@@ -26,9 +26,9 @@
 
 ## Project 5 
 
- - A tic-tac-toe game developed to practice knowledge of JavaScript, HTML and CSS
- 
-![tic-tac-toe-game](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFmbXBrdnR6MWt0ajdoNGRwZWI0NzQ4Ymg5bmtoNmc2aDk3YnhqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TmXki05NGjWuacHPEL/giphy.gif)
+ - Project developed to place unique messages on the screen 
+
+![Mensagens](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGt0YXRkM2I1OHh4eDh3ZzRwbHZzNjFmNHVveXR1OWJ2anNmbWlseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/32liqhJDup3R6L7zJj/giphy.gif) 
 
 ## Project 6 
 
