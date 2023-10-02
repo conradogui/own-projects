@@ -6,12 +6,11 @@ import ToDo from './components/ToDo'
 function App() { 
   const [tarefa, setTarefa] = useState('')
   const [data, setData] = useState('')
-  const [submittedValue, setSubmittedValue] = useState('')
+  const [historico, setHistorico] = useState([])
   
-  const mostraTarefa = (e) => {
+  const mostraTarefas = (e) => {
     setTarefa(e.target.value)
   }
-
   const mostraData = (e) => {
     setData(e.target.value)
   }
@@ -20,7 +19,7 @@ function App() {
     <div className="app">      
       <div className='container'>
         <div className="add_tarefa">
-            <ToDo mostraTarefa={mostraTarefa} tarefa={tarefa} mostraData={mostraData} data={data} submittedValue={submittedValue} setSubmittedValue={setSubmittedValue} />
+            <ToDo mostraTarefas={mostraTarefas} tarefa={tarefa} historico={historico} setHistorico={setHistorico} data={data} mostraData={mostraData} />
         </div>
       </div>
     </div>

@@ -1,23 +1,25 @@
-const ToDo = ({mostraTarefa, tarefa, mostraData, data, submittedValue, setSubmittedValue}) => {
-
+const ToDo = ({mostraTarefas, tarefa, historico, setHistorico, data, mostraData}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        setSubmittedValue(tarefa, data)
+        setHistorico([...historico, tarefa + ' - ' + data])
     }
 
   return (
     <div>
+      <h1>Adicionar tarefa</h1>
         <form action="" onSubmit={handleSubmit} >
-            <input type="text" name="tarefa" id="tarefa" value={tarefa} onChange={mostraTarefa}/>
-            <input type="date" name="data" id="data" value={data} onChange={mostraData} />            
+            <input type="text" name="tarefa" id="tarefa" value={tarefa} onChange={mostraTarefas}/> 
+            <input type="date" name="data" id="data" value={data} onChange={mostraData} />        
             <button>Adicionar</button>
         </form>
-        {submittedValue && (
         <div>
-          Valor submetido: {submittedValue}
-        </div>
-      )}
+        <ul>
+          {historico.map((valor, index) => (
+            <li key={index}>{valor} <button>Apagar</button></li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }
