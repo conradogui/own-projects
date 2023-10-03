@@ -1,24 +1,35 @@
-const ToDo = ({mostraTarefas, tarefa, historico, setHistorico, data, mostraData}) => {
+const ToDo = ({mostraTarefas, tarefa, historico, setHistorico, hour, mostraHora, hour2, mostraHora2, setHour1, setHour2, setTarefa}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        setHistorico([...historico, tarefa + ' - ' + data])
+        setHistorico([...historico, `${tarefa} de ${hour} até ${hour2}`])
+        setHour1('')
+        setHour2('')
+        setTarefa('')
     }
+
+    const handleDelete = (index) => {
+      const newHistorico = [...historico]
+      newHistorico.splice(index, 1)
+      setHistorico(newHistorico)
+    }
+    
 
   return (
     <div>
-      <h1>Adicionar tarefa</h1>
-        <form action="" onSubmit={handleSubmit} >
+      <h1>Rotina diária</h1>
+        <form action="" onSubmit={handleSubmit}>
             <input type="text" name="tarefa" id="tarefa" value={tarefa} onChange={mostraTarefas}/> 
-            <input type="date" name="data" id="data" value={data} onChange={mostraData} />        
+            <input type="time" name="hora" id="hora" value={hour} onChange={mostraHora} />  
+            <input type="time" name="hora2" id="hora2" value={hour2} onChange={mostraHora2} />      
             <button>Adicionar</button>
         </form>
         <div>
-        <ul>
+        <div>
           {historico.map((valor, index) => (
-            <li key={index}>{valor} <button>Apagar</button></li>
+            <p key={index}>{valor} <button onClick={() => handleDelete(index)}>Fiz</button></p>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   )
