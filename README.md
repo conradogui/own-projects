@@ -9,34 +9,40 @@
 
 ## Project 2 
 
+ - Shopify page copy made to train HTML and CSS skills
+ 
+![shopify-page](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2NyNjAyaGNzdHV4anB6N2ppNTlhNnFwb3hyMG9pbnp0NHNwOHdzbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8QPnwuHUE2Urdi93oR/giphy.gif)
+
+## Project 3 
+
  - A tic-tac-toe game developed to practice knowledge of JavaScript, HTML and CSS
  
 ![tic-tac-toe-game](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFmbXBrdnR6MWt0ajdoNGRwZWI0NzQ4Ymg5bmtoNmc2aDk3YnhqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TmXki05NGjWuacHPEL/giphy.gif)
 
-## Project 3 
+## Project 4 
  - Project to change the screen background according to clicks
  
 ![Change-background](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnpjbTNmaWs2bWhybmJjOWQycGtleTd5emkzbXc1bDdoM2c3OWE3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zuVcbw1k1zOLOk67Cw/giphy.gif)
 
-## Project 4 
+## Project 5
 
  - A simple project that counts clicks according to the command
  
 ![Cliks-counter](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHpjY3U1bGJudzE1YjM3cnMyZ3g2bXNjMjlkbDg1cXRpbGJsa2dxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hx3kDRBGUmaDWBht9d/giphy.gif)
 
-## Project 5 
+## Project 6 
 
  - Project developed to place unique messages on the screen 
 
 ![Mensagens](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGt0YXRkM2I1OHh4eDh3ZzRwbHZzNjFmNHVveXR1OWJ2anNmbWlseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/32liqhJDup3R6L7zJj/giphy.gif) 
 
-## Project 6 
+## Project 7
 
  - The famous snake-game developed with JavaScript, CSS and HTML
  
 ![snake-game](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDI4NGo0cHB0cHVmOTExZ3NuNmN4NjFhMnVscHY1NThzNWo3Y3RpMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sfOoSxcCCVeGVtfmWh/giphy.gif)
 
-## Project 7
+## Project 8
 
  - Basic task list project developed with React, made to train skills
  
