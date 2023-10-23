@@ -36,4 +36,10 @@
  
 ![snake-game](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDI4NGo0cHB0cHVmOTExZ3NuNmN4NjFhMnVscHY1NThzNWo3Y3RpMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sfOoSxcCCVeGVtfmWh/giphy.gif)
 
+## Project 7
+
+ - Basic task list project developed with React, made to train skills
+ 
+![Task-List](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm5qc2x5eTRoYjN0ZmZmajAyNHRkaXkxc2Fhc2lyZmc2OHhkZnRjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p6iMuq2ZdevdLFft1J/giphy.gif)
+
 
