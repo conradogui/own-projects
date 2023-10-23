@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mensagem</title>
+    <title>Jogo da velha</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Mensagem que gostaria de passar</h1>
-        <input type="text" class="mensagem">
-        <button class="enviar">Enviar</button>
-        <p class="erro">Digite algo</p>
-        <h3>Sua mensagem...</h3>
-        <p class="mensagem-enviada"></p>
-    </div>
-    <script src="code.js"></script>    
+    <section class="container">        
+    <h1>Jogo da velha</h1>
+    <header>
+        <p>Jogador 1:  <input type="text" class="joga1"> </p>
+        <p>Jogador 2:  <input type="text" class="joga2"> </p>
+        <button class="comecar">Começar</button>
+    </header>
+    
+        <p class="vez">Quem joga primeiro é...</p>
+        <table class="tabela">
+            <tbody >
+                <tr>
+                    <td class="v1"><button class="btn x1">-</button></td>
+                    <td class="v2"><button class="btn x2">-</button></td>
+                    <td class="v3"><button class="btn x3">-</button></td>
+                </tr>
+                <tr>
+                    <td class="v4"><button class="btn y1">-</button></td>
+                    <td class="v5"><button class="btn y2">-</button></td>
+                    <td class="v6"><button class="btn y3">-</button></td>
+                </tr>
+                <tr>
+                    <td class="v7"><button class="btn z1">-</button></td>
+                    <td class="v8"><button class="btn z2">-</button></td>
+                    <td class="v9"><button class="btn z3">-</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 class="ganhou"></h1>
+    </section>
+    <footer>Desenvolvido por &copy;onrado</footer>
+    <script src="code.js"></script>
 </body>
 </html>
